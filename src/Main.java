@@ -1,5 +1,16 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        Medis azuolas = new Azuolas();
+        Medis berzas = new Berzas();
+        Medis egle = new Egle();
+        Medis pusis = new Pusis();
+        Medis kadagys = new Kadagys();
+
+        azuolas.turi();
+        berzas.turi();
+        egle.turi();
+        pusis.turi();
+        kadagys.turi();
     }
 }
+
