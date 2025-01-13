@@ -9,16 +9,16 @@ public class Miskas {
         }
     }
 
-    public static void spygliuociuMiskas(List<? extends Medis> spygliuociai) {
+    public static void spygliuociuMiskas(List<? extends Spygliuotis> spygliuociai) {
         System.out.println("Spygliuociu miskas:");
-        for (Medis medis : spygliuociai) {
+        for (Spygliuotis medis : spygliuociai) {
             medis.turi();
         }
     }
 
-    public static void berzuMiskas(List<Medis> berzai) {
+    public static void berzuMiskas(List<Berzas> berzai) {
         System.out.println("Berzu miskas:");
-        for (Medis berzas : berzai) {
+        for (Berzas berzas : berzai) {
             berzas.turi();
         }
     }

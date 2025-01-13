@@ -18,15 +18,13 @@ public class Main {
         ivairusMedziai.add(egle);
         ivairusMedziai.add(pusis);
 
-        List<Medis> spygliuociai = new ArrayList<>();
+        List<Spygliuotis> spygliuociai = new ArrayList<>();
         spygliuociai.add(kadagys);
-        spygliuociai.add(azuolas);
         spygliuociai.add(egle);
         spygliuociai.add(pusis);
 
-        List<Medis> berzai = new ArrayList<>();
+        List<Berzas> berzai = new ArrayList<>();
         berzai.add(berzas1);
-        berzai.add(kadagys);
         berzai.add(berzas2);
 
 
